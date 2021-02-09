@@ -1,0 +1,248 @@
+.videoplayervolume1 {
+  -webkit-appearance: none;
+  background: transparent;
+  margin: 12px 0;
+  width: 100%;
+  transform: rotate(-90deg);
+}
+
+.videoplayervolume1::-moz-focus-outer {
+  border: 0;
+}
+
+.videoplayervolume1:focus {
+  outline: 0;
+}
+
+.videoplayervolume1:focus::-webkit-slider-runnable-track {
+  background: #7da2bc;
+}
+
+.videoplayervolume1:focus::-ms-fill-lower {
+  background: #6c96b3;
+}
+
+.videoplayervolume1:focus::-ms-fill-upper {
+  background: #7da2bc;
+}
+
+.videoplayervolume1::-webkit-slider-runnable-track {
+  cursor: default;
+  height: 6px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  width: 100%;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.712), 0 0 1px rgba(13, 13, 13, 0.712);
+  background: #6c96b3;
+  border: 2px solid #72858d;
+  border-radius: 5px;
+}
+
+.videoplayervolume1::-webkit-slider-thumb {
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2), 0 0 4px rgba(13, 13, 13, 0.2);
+  background: #566377a6;
+  border: 2px solid #9ba4aa;
+  border-radius: 5px;
+  box-sizing: border-box;
+  cursor: default;
+  height: 24px;
+  width: 12px;
+  -webkit-appearance: none;
+  margin-top: -11px;
+}
+
+.videoplayervolume1::-moz-range-track {
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.712), 0 0 1px rgba(13, 13, 13, 0.712);
+  cursor: default;
+  height: 6px;
+  -moz-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  width: 100%;
+  background: #6c96b3;
+  border: 2px solid #72858d;
+  border-radius: 5px;
+  height: 3px;
+}
+
+.videoplayervolume1::-moz-range-thumb {
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2), 0 0 4px rgba(13, 13, 13, 0.2);
+  background: #566377a6;
+  border: 2px solid #9ba4aa;
+  border-radius: 5px;
+  box-sizing: border-box;
+  cursor: default;
+  height: 24px;
+  width: 12px;
+}
+
+.videoplayervolume1::-ms-track {
+  cursor: default;
+  height: 6px;
+  -ms-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  width: 100%;
+  background: transparent;
+  border-color: transparent;
+  border-width: 12px 0;
+  color: transparent;
+}
+
+.videoplayervolume1::-ms-fill-lower {
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.712), 0 0 1px rgba(13, 13, 13, 0.712);
+  background: #5b8aaa;
+  border: 2px solid #72858d;
+  border-radius: 10px;
+}
+
+.videoplayervolume1::-ms-fill-upper {
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.712), 0 0 1px rgba(13, 13, 13, 0.712);
+  background: #6c96b3;
+  border: 2px solid #72858d;
+  border-radius: 10px;
+}
+
+.videoplayervolume1::-ms-thumb {
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2), 0 0 4px rgba(13, 13, 13, 0.2);
+  background: #566377a6;
+  border: 2px solid #9ba4aa;
+  border-radius: 5px;
+  box-sizing: border-box;
+  cursor: default;
+  height: 24px;
+  width: 12px;
+  margin-top: 1.5px;
+}
+
+.videoplayervolume1:disabled::-webkit-slider-thumb,
+.videoplayervolume1:disabled::-moz-range-thumb,
+.videoplayervolume1:disabled::-ms-thumb,
+.videoplayervolume1:disabled::-webkit-slider-runnable-track,
+.videoplayervolume1:disabled::-ms-fill-lower,
+.videoplayervolume1:disabled::-ms-fill-upper {
+  cursor: not-allowed;
+}
+
+.videoplayervolume2 {
+  -webkit-appearance: none;
+  background: transparent;
+  margin: 12px 0;
+  width: 100%;
+  transform: rotate(-90deg);
+}
+
+.videoplayervolume2::-moz-focus-outer {
+  border: 0;
+}
+
+.videoplayervolume2:focus {
+  outline: 0;
+}
+
+.videoplayervolume2:focus::-webkit-slider-runnable-track {
+  background: #84bc7d;
+}
+
+.videoplayervolume2:focus::-ms-fill-lower {
+  background: #74b36c;
+}
+
+.videoplayervolume2:focus::-ms-fill-upper {
+  background: #84bc7d;
+}
+
+.videoplayervolume2::-webkit-slider-runnable-track {
+  cursor: default;
+  height: 6px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  width: 100%;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.712), 0 0 1px rgba(13, 13, 13, 0.712);
+  background: #74b36c;
+  border: 2px solid #778d72;
+  border-radius: 5px;
+}
+
+.videoplayervolume2::-webkit-slider-thumb {
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2), 0 0 4px rgba(13, 13, 13, 0.2);
+  background: #5e7756a6;
+  border: 2px solid #a1aa9b;
+  border-radius: 5px;
+  box-sizing: border-box;
+  cursor: default;
+  height: 24px;
+  width: 12px;
+  -webkit-appearance: none;
+  margin-top: -11px;
+}
+
+.videoplayervolume2::-moz-range-track {
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.712), 0 0 1px rgba(13, 13, 13, 0.712);
+  cursor: default;
+  height: 6px;
+  -moz-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  width: 100%;
+  background: #74b36c;
+  border: 2px solid #778d72;
+  border-radius: 5px;
+  height: 3px;
+}
+
+.videoplayervolume2::-moz-range-thumb {
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2), 0 0 4px rgba(13, 13, 13, 0.2);
+  background: #5e7756a6;
+  border: 2px solid #a1aa9b;
+  border-radius: 5px;
+  box-sizing: border-box;
+  cursor: default;
+  height: 24px;
+  width: 12px;
+}
+
+.videoplayervolume2::-ms-track {
+  cursor: default;
+  height: 6px;
+  -ms-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  width: 100%;
+  background: transparent;
+  border-color: transparent;
+  border-width: 12px 0;
+  color: transparent;
+}
+
+.videoplayervolume2::-ms-fill-lower {
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.712), 0 0 1px rgba(13, 13, 13, 0.712);
+  background: #64aa5b;
+  border: 2px solid #778d72;
+  border-radius: 10px;
+}
+
+.videoplayervolume2::-ms-fill-upper {
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.712), 0 0 1px rgba(13, 13, 13, 0.712);
+  background: #74b36c;
+  border: 2px solid #778d72;
+  border-radius: 10px;
+}
+
+.videoplayervolume2::-ms-thumb {
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2), 0 0 4px rgba(13, 13, 13, 0.2);
+  background: #5e7756a6;
+  border: 2px solid #a1aa9b;
+  border-radius: 5px;
+  box-sizing: border-box;
+  cursor: default;
+  height: 24px;
+  width: 12px;
+  margin-top: 1.5px;
+}
+
+.videoplayervolume2:disabled::-webkit-slider-thumb,
+.videoplayervolume2:disabled::-moz-range-thumb,
+.videoplayervolume2:disabled::-ms-thumb,
+.videoplayervolume2:disabled::-webkit-slider-runnable-track,
+.videoplayervolume2:disabled::-ms-fill-lower,
+.videoplayervolume2:disabled::-ms-fill-upper {
+  cursor: not-allowed;
+}
+
