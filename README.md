@@ -1,12 +1,22 @@
-This is a portfolio project. 
-It is under development. The latest functionality may change rapidly depending on my free time. Please check the deployment address for latest overview.
+This is a portfolio project.
+
+It is under development. 
+The latest functionality may change rapidly depending on my free time. Please check the deployment address for latest overview.
+
 Deployment address: http://ivnfolio.site/
+
 Creator: Ivan Savchenko
+
 Full Name:       IVAN SAVCHENKO 
+
 Contact info: 	
+
 Phone:          +38 (093) 116-53-79 (Viber/Telegram) 
+
 email:          ivankvkharkiv@gmail.com
+
 LinkedIn:       www.linkedin.com/in/ivan-savchenko-5214201a5 
+
 
 
 To run project locally:
