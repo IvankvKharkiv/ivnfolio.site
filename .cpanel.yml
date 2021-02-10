@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/ivnfolio/public_html/
+    - /bin/cp -R public $DEPLOYPATH
