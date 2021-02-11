@@ -23,12 +23,13 @@ To run project locally:
 1. clone repository
 2. clone folders from public: https://github.com/IvankvKharkiv/publicfilesforivnfoliosite to yoursitefolder/storage/app/public
 3. delete file: "public\index.php" and rename file "public\index_local_env_config.php" to "public\index.php"
-4. run composer install
-5. Delete yoursitefolder/public/storage folder
-6. Create symbolic link instead of it php artisan storage:link
-7. Connect app with your DB via .env file 
-8. run php artisan migrate
-9. run php artisan db:seed
-10. in xamp go to http://localhost/yoursitefolder/public/ and it should work perfectly fine!
-11. !!!!! important !!!!! Do not use "php artisan serve" because it does not serve video from server in appropriate way.
+4. delete file: "config\livewire.php" and rename file "config\livewire_local_env_config.php" to "config\livewire.php"
+5. run composer install
+6. Delete yoursitefolder/public/storage folder
+7. Create symbolic link instead of it php artisan storage:link
+8. Connect app with your DB via .env file 
+9. run php artisan migrate
+10. run php artisan db:seed
+11. in xamp go to http://localhost/yoursitefolder/public/ and it should work perfectly fine!
+12. !!!!! important !!!!! Do not use "php artisan serve" because it does not serve video from server in appropriate way.
 

@@ -42,7 +42,7 @@ return [
     |
     */
 
-    'asset_url'  => 'http://localhost/ivnfolio.site/public',
+    'asset_url'  => 'http://ivnfolio.site',
     
 
     /*
@@ -71,7 +71,7 @@ return [
     */
 
     'temporary_file_upload' => [
-        'disk' => 's3',        // Example: 'local', 's3'              Default: 'default'
+        'disk' => null,        // Example: 'local', 's3'              Default: 'default'
         'rules' => null,       // Example: ['file', 'mimes:png,jpg']  Default: ['required', 'file', 'max:12288'] (12MB)
         'directory' => null,   // Example: 'tmp'                      Default  'livewire-tmp'
         'middleware' => null,  // Example: 'throttle:5,1'             Default: 'throttle:60,1'
