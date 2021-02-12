@@ -1,6 +1,6 @@
 .vscode/
 /node_modules
-/config\livewire.php
+/config/livewire.php
 /public/hot
 /public/storage
 /public/images
