@@ -27,9 +27,10 @@ To run project locally:
 5. run composer install
 6. Delete yoursitefolder/public/storage folder
 7. Create symbolic link instead of it php artisan storage:link
-8. Connect app with your DB via .env file 
-9. run php artisan migrate
-10. run php artisan db:seed
-11. in xamp go to http://localhost/yoursitefolder/public/ and it should work perfectly fine!
-12. !!!!! important !!!!! Do not use "php artisan serve" because it does not serve video from server in appropriate way.
+8. Put your app path into your .env file: APP_URL=http://localhost/YOUR_FOLDER_NAME/public/
+9. Connect app with your DB via .env file 
+10. run php artisan migrate
+11. run php artisan db:seed
+12. in xamp go to http://localhost/yoursitefolder/public/ and it should work perfectly fine!
+13. !!!!! important !!!!! Do not use "php artisan serve" because it does not serve video from server in appropriate way.
 
